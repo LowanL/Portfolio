@@ -1,5 +1,12 @@
-.exempleMap {
+.exempleImg {
   margin: auto;
+  width: 40%;
+  justify-self: center;
+  display: grid;
+}
+
+.taek{
+    margin: auto;
   width: 40%;
   justify-self: center;
   display: grid;

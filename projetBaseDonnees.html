@@ -6,10 +6,10 @@
 -->
 <html>
 	<head>
-		<title>LE MAT Lowan - Projet Jeu Vidéo</title>
+		<title>LE MAT Lowan - Projet Base de Données</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="icon" href="images/ProjetJeu.png"/>
+		<link rel="icon" href="images/projetBaseDonnees.png"/>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/projet.css"/>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -35,12 +35,44 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Projet Jeu Vidéo</h1>
-							<span class="image fit"><img class="w-full " src="images/fondJeu.gif"/></span>
+							<h1 class="major">Projet Base de Données</h1>
+							<span><img class="taek " src="images/projetBaseDonnees.png"/></span>
 							<p>
-								Ce projet 
+								Ce projet s'est décomposé en plusieurs étapes : 
 							</p>
-								<img class="exempleMap" src="images/ExempleMap.png"/>
+							<ol>
+								<li>
+									<p>
+										Contacter une entreprise ou une association pour leur demander 
+										s'ils adhère au projet et quelles sont <strong>leurs  besoins</strong> afin de pouvoir créer une base de données conforme à leurs besoins.
+										Pour ma part, le club Mennecy Arts Martiaux Corréens a bien voulu collaborer avec moi.
+									</p>
+								</li>
+
+								<li>
+									<p>
+										Un fois les besoins récupérés, je les ai modélisés dans un <strong> M</strong>odèle <strong>C</strong>onceptuel des <strong>D</strong>onnées <strong>(MCD)</strong>.
+										Ceci est utilisé pour représenter les entités et les relations entre elles et <strong> permet de structurer efficacement les informations relatives</strong>.
+										(Exemple ci-dessous)<br/>
+										<strong> Cette représentation reste très abstraite </strong> et nécessite un étape intermédiaire avant la création de la base de données utilisable.
+									</p>
+									<img class="exempleImg" src="images/ExempleMCD.png"/>
+								</li>
+								<li>
+									<p>
+										L'étape suivante était celle de la création du <strong>S</strong>chéma <strong>R</strong>elationnel <strong>(SR)</strong>.
+										Un schéma relationnel est une représentation logique d'une base de données relationnelle. Il est composé de <strong>Tables</strong>, elle-même composé <strong>d'attributs</strong>.
+										Ce schéma est <strong> la représentation qui se rapproche le plus de la base de données</strong>.
+									</p>
+									<img class="exempleImg" src="images/ExempleSR.png" alt="ExempleSR">
+								</li>
+								<li>
+									<p>
+										La dernière étape effectué est la création de la base de données. Celle-ci a été effectué en <strong>SQLite</strong>
+									</p>
+								</li>
+							</ol>
+								
 							</div>
 						
 					</section>
